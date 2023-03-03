@@ -267,15 +267,15 @@ ul{
     display: none;
 }
 .h3-type-item{
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2E2F42;
 }
 .section-work{
+    display: none;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -295,23 +295,20 @@ ul{
 }
 .section-team{
     background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 56px;
 }
 .h2-our-team{
     display: flex;
     justify-content: center;
     margin-bottom: 72px;
 }
-.class-team{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 24px;
-}
 .team-li{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    width: 264px;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 .team-item{
     padding-top: 32px;
@@ -415,8 +412,9 @@ ul{
     display: none;
 }
 .h2-type-item{
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .customers{

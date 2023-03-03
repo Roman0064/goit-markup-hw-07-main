@@ -162,7 +162,7 @@ ul{
     background-color: #404BBF;
 }
                                                        /* Button */
-.button-primary{
+/* .button-primary{
     background-color: #F4F4FD;
     color: #4D5AE5;
     font-family: inherit;
@@ -192,7 +192,7 @@ ul{
 }
                                                         /* Section */
 
-.p-type-item{
+/* .p-type-item{
     color:#434455;
     font-size: 16px;
     line-height: 1.5;
@@ -459,11 +459,11 @@ ul{
     border-color: #404BBF;
 }
 .customer-link:is(:hover, :focus) .customer-icon {
-    fill:#404BBF;
+    fill:#404BBF; */
 }
 
                                                          /* Footer */
-.footer{
+/* .footer{
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -795,4 +795,4 @@ ul{
 }
 .footer-button-form:is(:hover, :focus){
     background-color: #404BBF;
-}
+} */

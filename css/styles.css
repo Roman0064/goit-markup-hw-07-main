@@ -296,7 +296,7 @@ ul{
 .section-team{
     background-color: #F4F4FD;
     padding-top: 96px;
-    padding-bottom: 56px;
+    padding-bottom: 128px;
 }
 .h2-our-team{
     display: flex;
@@ -308,6 +308,8 @@ ul{
     border-radius: 0px 0px 4px 4px;
     width: 264px;
     margin: 0 auto;
+}
+.margin-team{
     margin-bottom: 72px;
 }
 .team-item{

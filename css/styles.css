@@ -128,7 +128,7 @@ ul{
 .hero-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -161,7 +161,7 @@ ul{
     background-color: #404BBF;
 }
                                                        /* Button */
-/* .button-primary{
+.button-primary{
     background-color: #F4F4FD;
     color: #4D5AE5;
     font-family: inherit;
@@ -191,17 +191,24 @@ ul{
 }
                                                         /* Section */
 
-/* .p-type-item{
+.p-type-item{
     color:#434455;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.feature-li{
-    width: 264px;
+.strategy{
+    margin-bottom: 72px;
+}
+.punctuality{
+    margin-bottom: 72px;
+}
+.diligence{
+    margin-bottom: 72px;
 }
 .strategy::before{
-    display: block;
+    display: none;
     content: "";
     height: 120px;
     background-image: url("../images/antenna.png");
@@ -213,7 +220,7 @@ ul{
     margin-bottom: 8px;
 }
 .punctuality::before {
-    display: block;
+    display: none;
     content: "";
     height: 120px;
     background-image: url("../images/clock.png");
@@ -225,7 +232,7 @@ ul{
     margin-bottom: 8px;
 }
 .diligence::before {
-    display: block;
+    display: none;
     content: "";
     height: 120px;
     background-image: url("../images/diagram.png");
@@ -237,7 +244,7 @@ ul{
     margin-bottom: 8px;
 }
 .technologies::before {
-    display: block;
+    display: none;
     content: "";
     height: 120px;
     background-image: url("../images/astronaut.png");
@@ -251,28 +258,22 @@ ul{
 .feature-p{
     margin-top: 8px;
 }
-.feature-style{
-    display: flex;
-    font-weight: wrap;
-    gap: 24px;
-}
 .section-feature{
-    padding-top: 120px;
-    
-    display: flex;
-    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    margin: 0 auto;
 }
 .feature-container{
     display: none;
 }
 .h3-type-item{
-    font-family: 'Roboto';
-    font-style: normal;
-    color:#2E2F42;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.2;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 .section-work{
     padding-top: 120px;
@@ -458,7 +459,7 @@ ul{
     border-color: #404BBF;
 }
 .customer-link:is(:hover, :focus) .customer-icon {
-    fill:#404BBF; */
+    fill:#404BBF;
 }
 
                                                          /* Footer */

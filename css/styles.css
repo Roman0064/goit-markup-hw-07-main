@@ -438,7 +438,6 @@ ul{
 }
 .customer-item {
     width: calc((100% - 30px) / 2);
-    height: 88px;
 }
 .customer-link {
     height: 88px;
@@ -803,4 +802,14 @@ ul{
     .container{
         max-width: 428px;
     }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    .customer-item {
+        width: calc((100% - 216px) / 3);
+    }
+    
 }

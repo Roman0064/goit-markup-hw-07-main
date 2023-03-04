@@ -429,19 +429,18 @@ ul{
     margin-bottom: 72px;
 }
 .customers-list{
+    
     display: flex;
     flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 72px;
 }
 .customer-item {
-    width: calc((100%-190px) / 2);
+    width: calc((100% - 30px) / 2);
     height: 88px;
-    display: flex;
-    flex-wrap: wrap;
 }
-
 .customer-link {
-    width: 100%;
-    height: 100%;
+    height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     display: flex;
@@ -798,3 +797,8 @@ ul{
 .footer-button-form:is(:hover, :focus){
     background-color: #404BBF;
 } */
+@media screen and (min-width: 480px){
+    .container{
+        max-width: 428px;
+    }
+}

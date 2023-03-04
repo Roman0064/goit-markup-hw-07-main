@@ -429,8 +429,9 @@ ul{
     margin-bottom: 72px;
 }
 .customers-list{
-    
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     column-gap: 16px;
     row-gap: 72px;
@@ -464,23 +465,22 @@ ul{
 }
 
                                                          /* Footer */
-/* .footer{
+.footer{
     background-color: #2E2F42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.footer-container{
-    display: flex;
-    flex-direction: row;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .footer-social{
-    width: 208px;
-    margin-left: 120px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    margin-bottom: 72px;
 }
 .footer-style{
-    width: 264px;
+    width: 268px;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 .footer-p-type{
     font-weight: 400;
@@ -499,6 +499,9 @@ ul{
     margin-top: 16px;
 }
 .footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #F4F4FD;
     letter-spacing: 0.03em;
@@ -730,25 +733,20 @@ ul{
 .check-click{
     margin-right: 10px;
 }
-.online-form{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 80px;
-}
 .label-footer-text{
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 .online-email{
-    width: 264px;
+    width: 100%;
+    max-width: 398px;
     height: 40px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -759,6 +757,7 @@ ul{
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color:#FCFCFC;
+    margin-bottom: 16px;
 }
 .online-email:is(:hover, :focus){
     border-color: #4D5AE5;
@@ -793,10 +792,12 @@ ul{
     border-radius: 4px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
 }
 .footer-button-form:is(:hover, :focus){
     background-color: #404BBF;
-} */
+}
+
 @media screen and (min-width: 480px){
     .container{
         max-width: 428px;

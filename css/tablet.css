@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .section-team>.container {
+        max-width: 582px;
+    }
+    .footer>.container{
+        max-width: 582px;
+    }
+    .hero {
+        background-color: #2E2F42;
+        color: #ffffff;
+        background-image: linear-gradient(to right,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/image-hero-tab.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-top: 112px;
+        padding-bottom: 108px;
+    }
+
+    .hero-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .h1-hero {
+        width: 496px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .h3-type-item {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+
+    .feature-li {
+        width: 356px;
+    }
+
+    .feature-style {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: calc((100% - 30px) / 2);
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .section-team {
+        background-color: #F4F4FD;
+        padding-top: 96px;
+        padding-bottom: 104px;
+    }
+    .class-team{
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: calc((100% - 30px) / 2);
+        column-gap: 24px;
+        row-gap: 64px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+    }
+    .customer-item{
+        width: calc((100% - 216px) / 3);
+    }
+    .customers-list{
+        column-gap: 24px;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-style {
+        width: 264px;
+        margin-right: 24px;
+    }
+    .footer-link{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer-social{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer-p-text-item{
+        margin-right: auto;
+    }
+    .online-form{
+       display: flex;
+       
+    }
+    .label-footer-text{
+        position: absolute;
+    
+    }
+    .online-email{
+        width: 264px;
+        height: 40px;
+    }
+}

@@ -136,7 +136,7 @@ ul{
 }
 .h1-hero{
     width: 320px;
-    margin: 0 auto;;
+    margin: 0 auto;
     margin-bottom: 72px;
 }
 .hero-button{
@@ -193,19 +193,10 @@ ul{
 
 .p-type-item{
     color:#434455;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-.strategy{
-    margin-bottom: 72px;
-}
-.punctuality{
-    margin-bottom: 72px;
-}
-.diligence{
-    margin-bottom: 72px;
 }
 .strategy::before{
     display: none;
@@ -266,6 +257,12 @@ ul{
 .feature-container{
     display: none;
 }
+.feature-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 72px;
+}
 .h3-type-item{
     font-weight: 500;
     font-size: 20px;
@@ -303,14 +300,17 @@ ul{
     justify-content: center;
     margin-bottom: 72px;
 }
+.class-team{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+}
 .team-li{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: 264px;
     margin: 0 auto;
-}
-.margin-team{
-    margin-bottom: 72px;
 }
 .team-item{
     padding-top: 32px;
@@ -468,18 +468,6 @@ ul{
     background-color: #2E2F42;
     padding-top: 96px;
     padding-bottom: 96px;
-}
-.footer-social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 72px;
-}
-.footer-style{
-    width: 268px;
-    margin: 0 auto;
-    margin-bottom: 72px;
 }
 .footer-p-type{
     font-weight: 400;
@@ -745,9 +733,6 @@ ul{
     margin-bottom: 16px;
 }
 .online-email{
-    width: 100%;
-    max-width: 398px;
-    height: 40px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -757,7 +742,6 @@ ul{
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color:#FCFCFC;
-    margin-bottom: 16px;
 }
 .online-email:is(:hover, :focus){
     border-color: #4D5AE5;
@@ -796,20 +780,4 @@ ul{
 }
 .footer-button-form:is(:hover, :focus){
     background-color: #404BBF;
-}
-
-@media screen and (min-width: 480px){
-    .container{
-        max-width: 428px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-    .customer-item {
-        width: calc((100% - 216px) / 3);
-    }
-    
 }

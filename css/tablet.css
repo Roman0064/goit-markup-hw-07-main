@@ -3,6 +3,7 @@
         max-width: 768px;
     }
     .header{
+        display: block;
         border-bottom: 1px solid #E7E9FC;
         padding: 0;
     }
@@ -79,7 +80,9 @@
         letter-spacing: 0.02em;
         color: #2E2F42;
     }
-
+    .section-work{
+        display: none;
+    }
     .feature-li {
         width: 356px;
     }

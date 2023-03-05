@@ -2,6 +2,9 @@
     .container {
         max-width: 428px;
     }
+    .header{
+        display: none;
+    }
     .hero{
         background-color: #2E2F42;
         color: #ffffff;
@@ -13,6 +16,9 @@
         ), url("../images/hero-image-mob.png");
         padding-top: 112px;
         padding-bottom: 112px;
+    }
+    .section-work{
+        display: none;
     }
     .feature-style {
         display: flex;

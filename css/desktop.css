@@ -1,11 +1,9 @@
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 1200px;
-    }
-    .section-team>.container {
         max-width: 1158px;
     }
     .header{
+        display: block;
         padding-top: 24px;
         padding-bottom: 24px;
     }
@@ -101,6 +99,7 @@
         width: 264px;
     }
     .section-work{
+        display: block;
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -135,15 +134,21 @@
     .customers-list {
         display: flex;
         flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
         gap: 24px;
     }
     .customer-item {
-        width: calc((100% - 168px) / 6);
+        width: calc((100%-168px) / 6);
         height: 90px;
     }
     .customer-link {
         width: 100%;
+        max-width: 168px;
         height: 100%;
+    }
+    .footer > .container {
+        max-width: 1158px;
     }
     .footer{
         padding-top: 100px;
@@ -153,5 +158,39 @@
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-social {
+        width: 208px;
+        margin-left: 120px;
+        display: flex;
+        flex-direction: column;
+    }
+    .online-form{
+        margin: 0;
+        margin-left: 80px;
+    }
+    .online-email{
+        margin: 0;
+        width: 264px;
+        height: 40px;
+    }
+    .footer-style{
+        margin: 0;
+    }
+    .footer-p-type{
+        width: 264px;
+    }
+    .footer-p-text-item{
+        margin: 0;
+        margin-right: auto;
+    }
+    .footer-button-form{
+        margin: 0;
+        margin-top: auto;
+        margin-left: 24px;
+        width: 165px;
+        height: 40px;
     }
 }

@@ -2,7 +2,18 @@
     .container {
         max-width: 428px;
     }
-
+    .hero{
+        background-color: #2E2F42;
+        color: #ffffff;
+        background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+        ), url("../images/hero-image-mob.png");
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
     .feature-style {
         display: flex;
         flex-wrap: wrap;

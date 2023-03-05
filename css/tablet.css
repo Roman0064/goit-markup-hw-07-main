@@ -2,7 +2,36 @@
     .container {
         max-width: 768px;
     }
-
+    .header{
+        border-bottom: 1px solid #E7E9FC;
+        padding: 0;
+    }
+    .site-nav{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .contact{
+        font-size: 12px;
+        line-height: 1.2;
+        letter-spacing: 0.04em;
+        color: #434455;
+    }
+    .contact-one{
+        padding: 0;
+        margin-bottom: 6px;
+    }
+    .contacts{
+        margin-left: 120px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin-right: 120px;
+    }
+    .modal{
+        padding: 22px;
+        max-width: 408px;
+    }
     .section-team>.container {
         max-width: 582px;
     }
@@ -13,9 +42,9 @@
         background-color: #2E2F42;
         color: #ffffff;
         background-image: linear-gradient(to right,
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)), url("../images/image-hero-tab.png");
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url("../images/image-hero-tab.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -90,13 +119,18 @@
     }
     .footer-style {
         width: 264px;
+        height: 110px;
+        margin: 0;
+        padding: 0;
         margin-right: 24px;
+
     }
     .footer-link{
         display: flex;
         justify-content: flex-start;
     }
     .footer-social{
+        margin: 0;
         display: flex;
         justify-content: flex-start;
     }
@@ -105,14 +139,21 @@
     }
     .online-form{
        display: flex;
-       
+       margin-top: 72px;
     }
     .label-footer-text{
-        position: absolute;
-    
+       display: flex;
+       justify-content: flex-start;
+    }
+    .footer-button-form{
+        margin: 0;
+        margin-top: auto; 
     }
     .online-email{
+        margin: 0;
+        margin-right: 24px;
         width: 264px;
         height: 40px;
+        
     }
 }

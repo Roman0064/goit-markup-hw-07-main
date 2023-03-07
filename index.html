@@ -76,13 +76,13 @@
             <h2 class="h2-type-item work">What are we doing</h2>
             <ul class="work-images">
                 <li class="work-images-list">
-                    <img src="./images/img1.jpg" alt="photo1" width="360">
+                    <img srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x" src="./images/img1.jpg" alt="photo1" width="360"/>
                 </li>
                 <li class="work-images-list">
-                    <img src="./images/img2.jpg" alt="photo2" width="360">
+                    <img srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x" src="./images/img2.jpg" alt="photo2" width="360"/>
                 </li>
                 <li class="work-images-list">
-                    <img src="./images/img3.jpg" alt="photo3" width="360">
+                    <img srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x" src="./images/img3.jpg" alt="photo3" width="360"/>
                 </li>
             </ul>
         </div>
@@ -92,7 +92,7 @@
             <h2 class="h2-type-item h2-our-team">Our Team</h2>
             <ul class="class-team">
                 <li class="team-li margin-team">
-                    <img src="./images/teamimg1.jpg" alt="teamimage" width="264">
+                    <img srcset="./images/teamimg1.jpg 1x, ./images/teamimg1-2x.jpg 2x" src="./images/teamimg1.jpg" alt="teamimage" width="264"/>
                     <div class="team-item">
                         <h3 class="h3-type-item team-name">Mark Guerrero</h3>
                         <p class="p-type-item team-specialty">Product Designer</p>
@@ -129,7 +129,7 @@
                     </div>
                 </li>
                 <li class="team-li margin-team">
-                    <img src="./images/teamimg2.jpg" alt="teamimage" width="264">
+                    <img srcset="./images/teamimg2.jpg 1x, ./images/teamimg2-2x.jpg 2x" src="./images/teamimg2.jpg" alt="teamimage" width="264"/>
                     <div class="team-item">
                         <h3 class="h3-type-item team-name">Tom Ford</h3>
                         <p class="p-type-item team-specialty">Frontend Developer</p>
@@ -166,7 +166,7 @@
                     </div>
                 </li>
                 <li class="team-li margin-team">
-                    <img src="./images/teamimg3.jpg" alt="teamimage" width="264">
+                    <img srcset="./images/teamimg3.jpg 1x, ./images/teamimg3-2x.jpg 2x" src="./images/teamimg3.jpg" alt="teamimage" width="264"/>
                     <div class="team-item">
                         <h3 class="h3-type-item team-name">Camila Garcia</h3>
                         <p class="p-type-item team-specialty">Marketing</p>
@@ -203,7 +203,7 @@
                     </div>
                 </li>
                 <li class="team-li">
-                    <img src="./images/teamimg4.jpg" alt="teamimage" width="264">
+                    <img srcset="./images/teamimg4.jpg 1x, ./images/teamimg4-2x.jpg 2x" src="./images/teamimg4.jpg" alt="teamimage" width="264"/>
                     <div class="team-item">
                         <h3 class="h3-type-item team-name">Daniel Wilson</h3>
                         <p class="p-type-item team-specialty">UI Designer</p>
@@ -339,25 +339,20 @@
                 </div>
                 <div class="modal-field">
                     <input
-                        class="input-check hidden"
-                        id="policy"
-                        type="checkbox"
-                        value="true"
-                        required
-                    />
+                        class="input-check hidden" id="policy" type="checkbox" value="true" required />
                     <label class="check-text" for="policy">
                         <span class="check-click">
                             <svg class="click-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-click"></use>
                             </svg>
                         </span>
-                        <p>I accept the terms and conditions of the&nbsp;
+                        <p>I accept the terms and conditions of the
                             <a class="link policy-link" href="#">Privacy Policy</a>
                         </p>
                     </label>
                 </div>
                 <div class="button-modal-pos">
-                    <button class="modal-send" type="submit"><p class="text-modal-button">Send</p></button>
+                    <button class="modal-send" type="submit"><span class="text-modal-button">Send</span></button>
                 </div>
             </form>
         </div>
@@ -372,28 +367,28 @@
                     <p class="footer-p-text-item">Social media</p>
                     <ul class="footer-soc-list">
                         <li class="footer-soc-item">
-                            <a class="footer-soc-link" href>
+                            <a class="footer-soc-link" href = "#">
                                 <svg class="footer-soc-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="footer-soc-item">
-                            <a class="footer-soc-link" href>
+                            <a class="footer-soc-link" href = "#">
                                 <svg class="footer-soc-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="footer-soc-item">
-                            <a class="footer-soc-link" href>
+                            <a class="footer-soc-link" href = "#">
                                 <svg class="footer-soc-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="footer-soc-item">
-                            <a class="footer-soc-link" href>
+                            <a class="footer-soc-link" href = "#">
                                 <svg class="footer-soc-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
@@ -407,7 +402,7 @@
                         <input type="email" class="online-email" id="online-text" placeholder="E-mail">
                     </div>
                 <button type="submit" class="footer-button-form">
-                    <p class="fot-text-form">Subscribe</p>
+                    <p class="fot-text-form">Subscribe<p>
                     <svg class="footer-icon-telegram" width="24" height="20">
                         <use href="./images/icons.svg#icon-telegram"></use>
                     </svg>

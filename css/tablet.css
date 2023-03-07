@@ -7,6 +7,9 @@
         border-bottom: 1px solid #E7E9FC;
         padding: 0;
     }
+    .nav-header-style{
+        display: flex;
+    }
     .site-nav{
         padding-top: 24px;
         padding-bottom: 24px;

@@ -2,7 +2,7 @@
     .container {
         max-width: 428px;
     }
-    .header{
+    .nav-header-style{
         display: none;
     }
     .hero{
@@ -28,6 +28,10 @@
             rgba(46, 47, 66, 0.7)
             ), url("../images/hero-image-mob-2x.png");
         }
+    }
+    .logo{
+        display: flex;
+        justify-content: flex-start;
     }
     .section-work{
         display: none;

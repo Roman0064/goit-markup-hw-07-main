@@ -108,6 +108,16 @@ ul{
 .contact:is(:hover, :focus){
     color:#404BBF;
 }
+.menu-open{
+    display: flex;
+    margin-left: auto;
+    border: 3px solid #2E2F42;
+    border: none;
+    background-color: black;
+}
+.menu-open-icon{
+    fill: #2E2F42;
+}
                                                               /* Hero */
 .hero{
     background-color: #2E2F42;

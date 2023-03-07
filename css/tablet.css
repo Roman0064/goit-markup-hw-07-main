@@ -32,6 +32,9 @@
     .logo{
         margin-right: 120px;
     }
+    .menu-open{
+        display: none;
+    }
     .modal{
         padding: 22px;
         max-width: 408px;

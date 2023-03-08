@@ -114,7 +114,7 @@ ul{
 .menu-open{
     margin-left: auto;
     stroke: #2E2F42;
-    background-color: #FFFFFF;
+    background-color: transparent;
     border: none;
 }
 .mob-container{
@@ -162,7 +162,7 @@ ul{
 .mob-tel{
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-decoration: none;

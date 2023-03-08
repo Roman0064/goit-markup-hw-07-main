@@ -28,6 +28,18 @@
     .site-nav{
         padding: 0;
     }
+    .nav-header-style-mob{
+        display: none;
+    }
+    .contacts-mob {
+        display: none;
+    }
+    .studio-team-list-mob{
+        display: none;
+    }
+    .menu-close{
+        display: none;
+    }
     .logo {
         margin-right: 76px;
     }

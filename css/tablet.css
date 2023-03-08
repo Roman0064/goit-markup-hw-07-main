@@ -10,6 +10,18 @@
     .nav-header-style{
         display: flex;
     }
+    .nav-header-style-mob{
+        display: none;
+    }
+    .contacts-mob {
+        display: none;
+    }
+    .studio-team-list-mob{
+        display: none;
+    }
+    .menu-close{
+        display: none;
+    }
     .site-nav{
         padding-top: 24px;
         padding-bottom: 24px;

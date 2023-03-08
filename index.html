@@ -36,11 +36,65 @@
                 <li><a class="contact contact-one" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="contact" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
-            <button class="menu-open">
-                <svg class="menu-open-icon" width="32px" height="22px">
-                    <use href="./images/icons.svg#icon-menu-open"></use>
+            <button class="menu-open" data-menu-open type="button">
+                <svg class="icon-menu" width="30px" height="20px">
+                    <use href="./images/icons.svg#icon-menu"></use>
                 </svg>
             </button>
+        </div>
+        <div class="mob-menu is-hidden" data-menu>
+            <div class="mob-container">
+                <button class="menu-close" data-menu-close type="button">
+                    <svg class="close-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="nav-header-style-mob">
+                    <li class="nav-style-mob">
+                        <a class="mob-link" href="./index.html">Studio</a>
+                    </li>
+                    <li class="nav-style-mob">
+                        <a class="mob-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-style-mob">
+                        <a class="mob-link" href>Contacts</a>
+                    </li>
+                </ul>
+                <ul class="contacts-mob">
+                    <li><a class="mob-contact mob-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="mob-contact mob-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>
+                <ul class="studio-team-list-mob">
+                    <li class="studio-team-item">
+                        <a class="studio-soc-link" href>
+                            <svg class="studio-soc-icon" width="16px" height="16px">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="studio-team-item">
+                        <a class="studio-soc-link" href>
+                            <svg class="studio-soc-icon" width="16px" height="16px">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="studio-team-item">
+                        <a class="studio-soc-link" href>
+                            <svg class="studio-soc-icon" width="16px" height="16px">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="studio-team-item">
+                        <a class="studio-soc-link" href>
+                            <svg class="studio-soc-icon" width="16px" height="16px">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -416,5 +470,6 @@
         </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

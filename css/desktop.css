@@ -125,9 +125,19 @@
     .feature-li{
         width: 264px;
     }
+    .h3-type-item{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        display: flex;
+    }
+    .feature-p{
+        font-weight: 400;
+    }
     .section-work{
         display: block;
-        padding-top: 120px;
         padding-bottom: 120px;
     }
     .work{

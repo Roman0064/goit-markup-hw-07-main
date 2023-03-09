@@ -108,6 +108,15 @@
         text-align: center;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        display: flex;
+    }
+    .team-name{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
     }
     .section-work{
         display: none;
@@ -115,7 +124,9 @@
     .feature-li {
         width: 356px;
     }
-
+    .feature-p{
+        font-weight: 500;
+    }
     .feature-style {
         display: flex;
         flex-wrap: wrap;

@@ -134,7 +134,6 @@
         column-gap: 24px;
         row-gap: 72px;
     }
-
     .section-team {
         background-color: #F4F4FD;
         padding-top: 96px;
@@ -198,5 +197,15 @@
         width: 264px;
         height: 40px;
         
+    }
+    .list-examples{
+        margin: 0;
+    }
+    .image_port{
+        margin: 0;
+        max-width: 356px;
+    }
+    .text-card-position{
+        max-width: 356px;
     }
 }

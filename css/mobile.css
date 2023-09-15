@@ -92,4 +92,8 @@
     .image_port{
         width: 100%;
     }
+    .section-buttons{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

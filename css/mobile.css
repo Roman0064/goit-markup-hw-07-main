@@ -63,4 +63,33 @@
     .footer-button-form{
         margin: 0 auto;
     }
+    .h3-type-item {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        display: flex;
+        text-overflow: ellipsis;
+    }
+    .section-card-one{
+        width: 100%;
+        max-width: 396px;
+    }
+    .list-examples{
+        display: flex;
+        flex-direction: column;
+        column-gap: 48px;
+        row-gap: 72px;
+    }
+    .text-card-position{
+        padding: 0;
+        margin-top: 32px;
+        padding-left: 16px;
+        padding-bottom: 32px;
+    }
+    .image_port{
+        width: 100%;
+    }
 }
